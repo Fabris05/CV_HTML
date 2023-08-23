@@ -1,0 +1,222 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+body{
+    margin: 50px;
+    font-family: 'Raleway', sans-serif;
+    background-color: #707a82c9;
+}
+.container{
+    max-width: 850px;   
+    background: #d1e2f0;
+    margin: 0px auto 0px; 
+    box-shadow: 1px 1px 2px #110404;
+    border-radius: 3px;  
+    padding: 20px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    
+}
+.container-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(10, 156, 184);
+    width: 250px;
+    margin-right: 0px;
+}
+.container-inf{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(10, 156, 184);
+    padding: 10px;
+    border-radius: 3px;
+}
+.pic{
+    display: flex;
+    flex-direction: column;
+    padding: 2px;
+    flex-direction: column;
+    width: 170px;
+    height: 170px;
+    padding: 15px;
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    
+}
+.font{
+    align-items: last baseline;
+    color: white;
+    font-size: 14px;
+}
+.img{
+    width: 18px;
+    height: 18px;
+}
+.skills{
+    display: flex;
+    flex-direction: column;
+    margin-left: 8px;
+}
+.idiom{
+    display: flex;
+    flex-direction: column;
+    margin-left: 8px; 
+}
+
+.soft-skills{
+    display: flex;
+    flex-direction: column;
+    margin-left: 8px;
+}
+
+.fonty{
+    justify-items: left;
+    font-size: 23px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+}
+.words{
+    justify-items: left;
+    font-size: 15px;
+    margin-bottom: 5px;
+    color: rgb(255, 255, 255);
+}
+
+.container-cv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 3px;
+    
+    
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    .name{
+        font-size: 33px;
+        color: rgb(0, 163, 187);
+        font-weight: bold;
+        margin-bottom: 5px;
+    }
+    .rol{
+        font-size: 18px;
+        margin-bottom: 1px;
+    }
+}
+
+.content{
+    margin-top: 9px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: left;
+
+}
+.me{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5px;
+    .a{
+        justify-items: left;
+        font-size: 25px;
+        margin-bottom: 5px;
+        font-weight: bold;
+        color: rgb(47, 47, 47);
+    }
+    .b{
+        text-align: justify;
+        font-size: 15px;
+        font-family: sans-serif;
+    }
+}
+.experience{
+    margin-top: 9px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container-ex{
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    justify-content: center;
+}
+.c{
+    justify-items: left;
+    font-size: 25px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: rgb(47, 47, 47);
+}
+.jobs{
+    display: flex;
+    flex-direction: column;
+    margin-left: 9px;
+    .d{
+        margin-top: 5px;
+        margin-bottom: 5px;
+        font-size: 18px;
+        font-weight: bold;
+    }
+    .e{
+        margin-left: 8px;
+        margin-top: 3px;
+        font-size: 16px;
+    }
+    .f{
+        font-size: 14px;
+        margin-left: 4px;
+        font-style: italic;
+        margin-top: 2px;
+        margin-bottom: 2px;
+        color: rgb(71, 71, 71);
+    }
+
+}
+
+.study{
+    margin-top: 9px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.container-es{
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+    justify-content: center;
+}
+.estudio{
+    display: flex;
+    flex-direction: column;
+    margin-left: 2px;
+    .utp{
+        margin-left: 0px;
+        margin-top: 3px;
+        font-size: 18px;
+    }
+    .h{
+        margin-left: 0px;
+        margin-top: 3px;
+        font-size: 15px;
+        font-style: italic;
+        color: rgb(71, 71, 71);
+    }
+}
